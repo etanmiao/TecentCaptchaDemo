@@ -1,0 +1,15 @@
+#debug or release
+RUN_MODE = debug
+[app]
+PAGE_SIZE = 10
+
+[server]
+HTTP_PORT = 8033
+READ_TIMEOUT = 60
+WRITE_TIMEOUT = 60
+
+[secret]
+SECRETID = xxxx
+SECRETKEY = xxxx
+APPSECRETKEY = xxxx**
+APPID = xxx

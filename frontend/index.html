@@ -1,0 +1,27 @@
+﻿<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="demo.js"></script>
+    <script src="https://ssl.captcha.qq.com/TCaptcha.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="text-align: center;">验证码登录测试</h1>
+    <form>
+    <table border="1" cellspacing="0" bordercolor="#9DCFFF" align="center">     
+        <tr>
+            <td  bgcolor="#E7FBFF" align="right">登录名:</td>
+            <td align="left"><input id="username" type="text" value="" maxlength="10" name="denglu" size="20"/><font>(可包含a-z,0-9和下划线)</font></td>
+        </tr>
+        <tr>
+            <td bgcolor="#E7FBFF" align="right">密码:</td>
+            <td><input id="password" type="password" name="userpsd" size="20" maxlength="15"/><font>(至少包含3个字符)</font></td>
+        </tr>
+    </table>
+    </form>
+
+    <button id="TencentCaptcha" data-appid="2009995634" data-cbfn="callback" type="button" style="display:block;margin:0 auto;height:40px;width:50px" >登录</button>
+</body>
+</html>
