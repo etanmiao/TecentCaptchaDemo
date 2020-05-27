@@ -12,6 +12,9 @@
 1.安装nginx（yum -y install nginx），拷贝配置文件configs/captcha.conf /etc/nginx/conf.d/captcha.conf，启动nginx
 
 1.拷贝静态文件frontend到nginx配置的根目录的captcha目录下
-mkdir /usr/share/nginx/html/captcha; 
+
+mkdir /usr/share/nginx/html/captcha;
+
 cp -r frontend/* /usr/share/nginx/html/captcha/*
+
 并修改index.html中data-appid为自己的captcha appid
