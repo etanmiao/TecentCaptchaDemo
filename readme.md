@@ -9,7 +9,7 @@
 
 1. configs/app.ini.example为app.ini并添加对应配置
 1. 安装nginx（yum -y install nginx），拷贝配置文件configs/captcha.conf /etc/nginx/conf.d/captcha.conf，启动nginx
-1. 拷贝静态文件frontend到nginx配置的根目录的captcha目录下
-mkdir /usr/share/nginx/html/captcha;<br/>
-cp -r frontend/* /usr/share/nginx/html/captcha/*<br/>
+1. 拷贝静态文件frontend到nginx配置的根目录的captcha目录下<br />
+mkdir /usr/share/nginx/html/captcha;<br />
+cp -r frontend/* /usr/share/nginx/html/captcha/*<br />
 并修改index.html中data-appid为自己的captcha appid
