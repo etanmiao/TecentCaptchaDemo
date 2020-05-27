@@ -4,7 +4,7 @@
 1. 后端处理逻辑：internal/controllers
 1. 配置文件示例：configs/app.ini.example 实际使用过程中，自己修改对应配置
 
-#部署说明
+#部署说明<br />
 部署文件已经打包到cmd/captcha.zip,下载解压后，
 
 1. configs/app.ini.example为app.ini并添加对应配置
